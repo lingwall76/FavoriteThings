@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		268051E41AF147D700D50A67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268051E31AF147D700D50A67 /* ViewController.m */; };
+		268051E71AF1528700D50A67 /* FavoriteThingsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 268051E61AF1528700D50A67 /* FavoriteThingsTableViewDataSource.m */; };
 		71DE96EC19A8D5360021E6F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE96EB19A8D5360021E6F7 /* main.m */; };
 		71DE96EF19A8D5360021E6F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE96EE19A8D5360021E6F7 /* AppDelegate.m */; };
 		71DE96F119A8D5360021E6F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71DE96F019A8D5360021E6F7 /* Images.xcassets */; };
@@ -24,6 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		268051E21AF147D700D50A67 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		268051E31AF147D700D50A67 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		268051E51AF1528700D50A67 /* FavoriteThingsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteThingsTableViewDataSource.h; sourceTree = "<group>"; };
+		268051E61AF1528700D50A67 /* FavoriteThingsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteThingsTableViewDataSource.m; sourceTree = "<group>"; };
 		71DE96E619A8D5360021E6F7 /* FavoriteThings-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FavoriteThings-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71DE96EA19A8D5360021E6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71DE96EB19A8D5360021E6F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +82,10 @@
 			children = (
 				71DE96ED19A8D5360021E6F7 /* AppDelegate.h */,
 				71DE96EE19A8D5360021E6F7 /* AppDelegate.m */,
+				268051E21AF147D700D50A67 /* ViewController.h */,
+				268051E31AF147D700D50A67 /* ViewController.m */,
+				268051E51AF1528700D50A67 /* FavoriteThingsTableViewDataSource.h */,
+				268051E61AF1528700D50A67 /* FavoriteThingsTableViewDataSource.m */,
 				71DE96F019A8D5360021E6F7 /* Images.xcassets */,
 				71DE96E919A8D5360021E6F7 /* Supporting Files */,
 			);
@@ -205,6 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268051E41AF147D700D50A67 /* ViewController.m in Sources */,
+				268051E71AF1528700D50A67 /* FavoriteThingsTableViewDataSource.m in Sources */,
 				71DE96EF19A8D5360021E6F7 /* AppDelegate.m in Sources */,
 				71DE96EC19A8D5360021E6F7 /* main.m in Sources */,
 			);
@@ -380,6 +392,7 @@
 				71DE970219A8D5360021E6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71DE970319A8D5360021E6F7 /* Build configuration list for PBXNativeTarget "FavoriteThings-ObjcTests" */ = {
 			isa = XCConfigurationList;
@@ -388,6 +401,7 @@
 				71DE970519A8D5360021E6F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
